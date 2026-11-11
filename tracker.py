@@ -1,5 +1,5 @@
 import csv
-
+import os
 expenses = []
 
 while True:
@@ -24,7 +24,6 @@ for category, amount in expenses:
 
 print(f"Total: {total:.2f} €")
 
-import os
 
 if expenses:
     filename = os.path.join(
